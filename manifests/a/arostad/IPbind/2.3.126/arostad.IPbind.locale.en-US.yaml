@@ -13,7 +13,7 @@ PackageUrl: https://ipbind.com
 License: MIT
 LicenseUrl: https://github.com/arostad/IPbind/blob/main/LICENSE
 Copyright: Copyright (c) 2026 Andy Rostad
-ShortDescription: Add several static IP addresses to one network adapter, then return it to DHCP in one click.
+ShortDescription: Add several static IP addresses to one network adapter simultaneously, then return it to DHCP in one click.
 Description: |-
   IPbind puts a list of static IPv4 addresses on one network adapter, so you can reach equipment on several subnets at once, such as PLCs, HMIs, cameras and switches on an air-gapped network. When you're done, Return to DHCP puts the adapter back the way it was.
   By default no gateway or DNS is set. If the network you plug into also has internet, turn on Gateway support for one address to stay online.
