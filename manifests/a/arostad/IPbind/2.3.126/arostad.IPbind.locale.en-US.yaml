@@ -1,0 +1,35 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
+
+PackageIdentifier: arostad.IPbind
+PackageVersion: 2.3.126
+PackageLocale: en-US
+Publisher: Andy Rostad
+PublisherUrl: https://github.com/arostad
+PublisherSupportUrl: https://github.com/arostad/IPbind/issues
+PrivacyUrl: https://github.com/arostad/IPbind#privacy
+Author: Andy Rostad
+PackageName: IPbind
+PackageUrl: https://ipbind.com
+License: MIT
+LicenseUrl: https://github.com/arostad/IPbind/blob/main/LICENSE
+Copyright: Copyright (c) 2026 Andy Rostad
+ShortDescription: Add several static IP addresses to one network adapter, then return it to DHCP in one click.
+Description: |-
+  IPbind puts a list of static IPv4 addresses on one network adapter, so you can reach equipment on several subnets at once, such as PLCs, HMIs, cameras and switches on an air-gapped network. When you're done, Return to DHCP puts the adapter back the way it was.
+  By default no gateway or DNS is set. If the network you plug into also has internet, turn on Gateway support for one address to stay online.
+  IPbind asks for administrator approval when it starts, because Windows requires it to change adapter settings.
+Moniker: ipbind
+Tags:
+- air-gapped
+- dhcp
+- ethernet
+- industrial-automation
+- ip-address
+- netsh
+- network
+- networking
+- plc
+- static-ip
+ReleaseNotesUrl: https://github.com/arostad/IPbind/releases/tag/v2.3.126
+ManifestType: defaultLocale
+ManifestVersion: 1.12.0

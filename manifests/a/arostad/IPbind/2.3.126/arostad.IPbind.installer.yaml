@@ -1,0 +1,22 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: arostad.IPbind
+PackageVersion: 2.3.126
+MinimumOSVersion: 10.0.0.0
+InstallerType: inno
+Scope: user
+InstallModes:
+- interactive
+- silent
+- silentWithProgress
+UpgradeBehavior: install
+Installers:
+- Architecture: neutral
+  InstallerUrl: https://github.com/arostad/IPbind/releases/download/v2.3.126/IPbind-Installer-v2.3.126.exe
+  InstallerSha256: 144CC8FF8757E3B6D0EF98235C90DC8B356A1A5F592EABBCD8E6F979E5F85F94
+  ProductCode: '{A42A329A-EDE5-4D63-B2C7-92947FE79E14}_is1'
+  AppsAndFeaturesEntries:
+  - DisplayName: IPbind
+    Publisher: Andy Rostad
+ManifestType: installer
+ManifestVersion: 1.12.0
